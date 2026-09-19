@@ -19,7 +19,6 @@ from tools.train_utils.train_utils import train_model
 # os.environ['CUDA_VISIBLE_DEVICES'] = '1'
 # torch.cuda.set_device(0)
 
-
 def parse_config():
     parser = argparse.ArgumentParser(description='arg parser')
     parser.add_argument('--cfg_file', type=str, default='./cfgs/kitti_models/voxt_dgcnn.yaml', help='specify the config for training')

@@ -1,5 +1,4 @@
 CLASS_NAMES: ['Car', 'Pedestrian', 'Cyclist']
-
 DATA_CONFIG:
     _BASE_CONFIG_: cfgs/dataset_configs/kitti_dataset.yaml
     POINT_CLOUD_RANGE: [0, -40, -3, 70.4, 40, 1]

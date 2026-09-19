@@ -104,7 +104,6 @@ class Pvt_Sgcnn_Two_Stage(VFETemplate):
         coords08x[:, 1:4] = points_offsets // self.voxel_size_08x
         coords08x, inverse08x = torch.unique(coords08x, return_inverse=True, dim=0)
 
-
         src = self.input_embed(points[:, 1:]) 
 
         src = src + self.pe0(pe_raw)
