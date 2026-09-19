@@ -2,12 +2,11 @@
 <img src="diagram.png" alt="drawing" width="900" height="400"/>
 
 ### Highlights：
-- （1）Hybrid Architecture
-PVT-DGCNN unifies PVFormer (local voxel attention) and DGcnnFFN (global graph convolution) for joint local-global feature learning, tackling fixed-receptive-field limitations.
-- （2）Dynamic Scaling
-Adapts to object sizes by tuning K-values in graph construction: large K for sparse areas (context expansion), small K for dense zones (local focus), e.g., K=7 for pedestrians vs. K=3 for cars.
-- （3）Small-Object Breakthrough
-Achieves SOTA on small objects: +4.70 pedestrian AP (KITTI Easy), 75.87% L1-AP (Waymo), via interference-resistant local-global feature fusion.
+- K-LGNet couples local attention with global graph convolution in a closed loop.
+- K provides an independent learning dimension beyond network depth and width.
+- Small objects benefit from large contexts, contrary to common design intuition.
+- Experiments on KITTI and Waymo validate K-LGNet for scale-variant 3D detection.
+
 
 ### 1. Recommended Environment
 - OpenPCDet Version: 0.5.2
