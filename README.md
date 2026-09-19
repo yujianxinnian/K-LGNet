@@ -2,10 +2,10 @@
 <img src="diagram.png" alt="drawing" width="900" height="400"/>
 
 ### Highlights：
- K-LGNet couples local attention with global graph convolution in a closed loop.
- K provides an independent learning dimension beyond network depth and width.
- Small objects benefit from large contexts, contrary to common design intuition.
- Experiments on KITTI and Waymo validate K-LGNet for scale-variant 3D detection.
+- K-LGNet couples local attention with global graph convolution in a closed loop.
+- K provides an independent learning dimension beyond network depth and width.
+- Small objects benefit from large contexts, contrary to common design intuition.
+- Experiments on KITTI and Waymo validate K-LGNet for scale-variant 3D detection.
 
 
 ### 1. Recommended Environment
